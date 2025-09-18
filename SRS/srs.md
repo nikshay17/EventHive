@@ -1,6 +1,39 @@
+<div align="center">
+<br />
+<!-- Placeholder for a Logo -->
+<img src="https://www.google.com/search?q=https://placehold.co/150x150/7c3aed/ffffff%3Ftext%3DEH" alt="EventHive Logo">
+<br />
+<br />
+
 EventHive - Software Requirements Specification (SRS)
+Map-based event discovery meets community chat - Connecting India through events and conversations.
+
+</div>
+
+<p align="center">
+<a href="#"><img src="https://www.google.com/search?q=https://img.shields.io/badge/SRS%2520Version-1.0-blue" alt="SRS Version"></a>
+<a href="#"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Standard-IEEE%2520830--1998-green" alt="Standard"></a>
+<a href="#"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Status-Active-brightgreen" alt="Status"></a>
+<a href="./LICENSE"><img src="https://www.google.com/search?q=https://img.shields.io/badge/License-MIT-purple" alt="License"></a>
+</p>
+
+This repository contains the official Software Requirements Specification (SRS) for the EventHive platform. It serves as the single source of truth for all functional and non-functional requirements, guiding the project from conception through to deployment and beyond.
+
+Table of Contents
 1. About This Document
-This repository contains the official Software Requirements Specification (SRS) for the EventHive platform. This document meticulously details the functional and non-functional requirements, system features, constraints, and external interfaces of the software. It serves as the foundational agreement between stakeholders and the development team, guiding the entire software development lifecycle from design and implementation to testing and future enhancements.
+
+2. Document Purpose and Audience
+
+3. How to Generate the PDF
+
+4. Structure of the SRS
+
+5. Contributing
+
+6. License
+
+1. About This Document
+This document meticulously details the system features, constraints, and external interfaces of the EventHive software. It serves as the foundational agreement between stakeholders and the development team, guiding the entire software development lifecycle.
 
 Standard Compliance
 This SRS is structured in accordance with the IEEE Std 830-1998, the internationally recognized recommended practice for Software Requirements Specifications. This ensures the document is comprehensive, unambiguous, verifiable, and modifiable.
@@ -40,7 +73,7 @@ Run the pdflatex command twice to ensure all cross-references, the table of cont
 # Navigate to the project directory
 cd /path/to/repository
 
-# Run pdflatex twice
+# Run pdflatex twice to resolve references
 pdflatex EventHive_SRS.tex
 pdflatex EventHive_SRS.tex
 
